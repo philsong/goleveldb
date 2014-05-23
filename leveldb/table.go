@@ -10,13 +10,13 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/syndtr/goleveldb/leveldb/cache"
-	"github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/table"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/philsong/goleveldb/leveldb/cache"
+	"github.com/philsong/goleveldb/leveldb/comparer"
+	"github.com/philsong/goleveldb/leveldb/iterator"
+	"github.com/philsong/goleveldb/leveldb/opt"
+	"github.com/philsong/goleveldb/leveldb/storage"
+	"github.com/philsong/goleveldb/leveldb/table"
+	"github.com/philsong/goleveldb/leveldb/util"
 )
 
 // table file

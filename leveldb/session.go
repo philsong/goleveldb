@@ -13,11 +13,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/journal"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/philsong/goleveldb/leveldb/iterator"
+	"github.com/philsong/goleveldb/leveldb/journal"
+	"github.com/philsong/goleveldb/leveldb/opt"
+	"github.com/philsong/goleveldb/leveldb/storage"
+	"github.com/philsong/goleveldb/leveldb/util"
 )
 
 // ErrManifest is the type that wraps errors produced by missing

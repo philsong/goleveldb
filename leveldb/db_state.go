@@ -9,8 +9,8 @@ package leveldb
 import (
 	"sync/atomic"
 
-	"github.com/syndtr/goleveldb/leveldb/journal"
-	"github.com/syndtr/goleveldb/leveldb/memdb"
+	"github.com/philsong/goleveldb/leveldb/journal"
+	"github.com/philsong/goleveldb/leveldb/memdb"
 )
 
 // Get latest sequence number.

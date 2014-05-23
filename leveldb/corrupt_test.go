@@ -12,9 +12,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/syndtr/goleveldb/leveldb/cache"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/storage"
+	"github.com/philsong/goleveldb/leveldb/cache"
+	"github.com/philsong/goleveldb/leveldb/opt"
+	"github.com/philsong/goleveldb/leveldb/storage"
 )
 
 const ctValSize = 1000

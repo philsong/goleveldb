@@ -11,7 +11,7 @@ package iterator
 import (
 	"errors"
 
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/philsong/goleveldb/leveldb/util"
 )
 
 // IteratorSeeker is the interface that wraps the 'seeks method'.

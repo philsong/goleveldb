@@ -9,8 +9,8 @@ package iterator
 import (
 	"errors"
 
-	"github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/philsong/goleveldb/leveldb/comparer"
+	"github.com/philsong/goleveldb/leveldb/util"
 )
 
 var (

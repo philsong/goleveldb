@@ -11,7 +11,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/philsong/goleveldb/leveldb/util"
 )
 
 type FileType uint32
